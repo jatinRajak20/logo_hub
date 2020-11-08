@@ -1,0 +1,297 @@
+/*
+
+logo Template
+
+http://www.templatemo.com/tm-479-logo
+
+*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	font-weight: normal;
+	line-height: 34px;
+}
+
+.container1 {
+  padding: 75px 0;
+  margin: 0 auto;
+  width: 1140px;
+}
+
+h1 {
+  position: relative;
+  margin-bottom: 45px;
+  font-family: 'Oswald', sans-serif;
+  font-size: 44px;
+  text-transform: uppercase;
+  color: #424242;
+}
+
+.gallery-wrap {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 70vh;
+}
+
+.item {
+  flex: 1;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: none;
+  transition: flex 0.8s ease;
+}
+.item:hover {
+  flex: 7;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.container-fluid {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.logo-icon {
+	font-size: 72px;
+	padding: 30px;
+}
+
+.contact-icon {
+	font-size: 30px;
+	padding: 0 20px 0 0;
+	min-width: 50px;
+}
+
+.site-title {
+	padding: 0;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.site-title h1 {
+	color: #333;
+}
+
+.site-title h2 {
+	color: #888;
+	font-size: 16px;
+	padding-top: 20px;
+}
+
+.text-center {
+	text-align: center;
+}
+.text-right {
+	text-align: right;
+}
+
+.main-menu {
+	margin-top: 60px;
+}
+
+.navbar {
+	float: right;
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.nav-link {
+	padding: 10px 15px;
+	font-size: 18px;
+}
+
+.logo-hr {
+   	margin: 15px -15px !important;
+}
+
+.logopad {
+	padding: 0 1px 1px 0 !important;
+	margin: 0 !important;
+}
+
+.logono {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+.logo-home h1 {
+	font-size: 48px;
+	color: white;
+}
+.logo-home p {
+	font-size: 24px;
+	color: white;
+	line-height: 44px;
+}
+.logo-home {
+	padding: 0px;
+	padding-top: 150px;
+	padding-bottom: 150px;
+	background: url(../images/tm-logo-00.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.space40 {
+	margin-bottom: 40px;
+}
+
+.logo-start {
+	margin: 10px;
+	padding: 16px 40px;
+	min-width: 200px;
+	font-size: 22px;
+}
+
+.logo-content {
+	padding: 60px 40px;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	min-height: 280px;
+}
+
+.logo-section-header {
+	padding: 0px;
+	padding-top: 100px;
+	padding-bottom: 80px;
+	background: url(../images/tm-logo-00.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	border-right: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.logo-home p, .logo-content p, .logo-section-header p {
+	padding: 20px 0 0 0;
+}
+
+.form-group {
+	margin: 20px 0;
+}
+
+/* logo BG Colors --- BEGIN */
+
+.logo-bg-lightgray {
+	background-color: #E4E8E8;
+}
+
+.logo-bg-gray {
+	background-color: #999;
+	color: #FFF;
+}
+
+.logo-bg-darkgray {
+	background-color: #666;
+	color: #FFF;
+}
+
+.logo-bg-black {
+	background-color: #444;
+	color: #FFF;
+}
+
+.logo-bg-blue {
+	background-color: #28B;
+	color: #FFF;
+}
+
+.logo-bg-red {
+	background-color: #A52;
+	color: #FFF;
+}
+
+.logo-bg-pink {
+	background-color: #EBE;
+	color: #000;
+}
+
+.logo-bg-lightblue {
+	background-color: #92C4F8;
+	color: #000;
+}
+
+.logo-bg-yellow {
+	background-color: #A4A430;
+	color: #FFF;
+}
+
+.logo-bg-green {
+	background-color: #496;
+	color: #FFF;
+}
+
+/* logo BG Colors --- END */
+
+.logo-copyright {
+	margin: 0;
+	padding: 10px 0 30px 0;
+	font-size: 14px;
+}
+
+@media (max-width:1330px) {
+	body {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	h1 {
+		font-size: 28px;
+	}
+
+	h2 {
+		font-size: 24px;
+	}
+	.logo-icon {
+		font-size: 48px;
+		padding: 20px;
+	}
+	.site-title h2 {
+		font-size: 14px;
+		padding-top: 10px;
+	}
+	.logo-content {
+		padding: 30px 20px;
+		min-height: 200px;
+	}
+	.logo-home h1 {
+		font-size: 40px;
+	}
+	.logo-home p {
+		font-size: 18px;
+		line-height: 36px;
+	}
+}
+
+@media (max-width:990px) {
+	.main-menu {
+		margin: 0px;
+	}
+}
+
+@media (max-width:767px) {
+	.nav-link {
+		padding: 5px 10px;
+		font-size: 16px;
+	}
+	.logo-home h1 {
+		font-size: 30px;
+	}
+	.logo-home p {
+		font-size: 16px;
+		line-height: 28px;
+	}
+	.logo-content {
+		padding: 20px;
+		min-height: 100px;
+	}
+}
